@@ -9,7 +9,7 @@ public class WriteExam02 {
         OutputStream os = new FileOutputStream("C://temp/test2.db");
         byte[] byarray = {10,20,30,40,50,60};
 
-        os.write(byarray,2,3);
+        os.write(byarray,0,6);
         os.flush();
         os.close();
     }
